@@ -1,0 +1,133 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fce235;
+}
+
+#box{
+	height: 200px;
+	width: 1000px;
+	background-color: #2D2D2D;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#main{
+	height: 400px;
+	width: 450px;
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+}
+#loginform,#signupform{
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+}
+#signupform{
+	top: 45%;
+	left: 75%;
+	visibility: hidden;
+}
+#loginform h1,#signupform h1{
+	font-family: arial;
+	font-size: 35px;
+	color: black;
+}
+#loginform input,#signupform input{
+	height: 40px;
+	width: 300px;
+	border: 0px;
+	outline: none;
+	border-bottom: 1px solid black;
+	margin: 5px;
+}
+#loginform button,#signupform button{
+	height: 35px;
+	width: 130px;
+	background-color: #fce235;
+	font-family: monospace;
+	font-size: 16px;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 175px;
+	cursor: pointer;
+}
+#kapoy,#na{
+	height: 35px;
+	width: 120px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	outline: none;
+	position: absolute;
+	left: 75%;
+	top: 65%;
+	transform: translate(-50%,-50%);
+	transition: all .5s;
+}
+#na{
+	left: 25%;
+}
+#kapoy:hover,#na:hover{
+	background-color: white;
+	color: #2D2D2D;
+	cursor: pointer;
+}
+#login_msg,#signup_msg{
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+#signup_msg{
+	left: 25%;
+}
+.text span{
+	margin-right: -10px;
+	padding: 0px;
+}
+.text{
+	font-family: arial black;
+	font-size: 100px;
+	color: transparent;
+	transform: skewY(-10deg) skewX(35deg);
+	text-shadow: -15px 15px 0 rgba(255,215,0,1),
+	-16px 16px 0 rgba(64,64,64,1);
+	position: absolute;
+	z-index: 1;
+}
+.a,.b,.c,.d,.e,.f,.g{
+	text-shadow: -16px 16px 0 rgba(255,215,0,1),
+	-17px 17px 0 rgba(64,64,64,1),
+	-18px 18px 0 rgba(64,64,64,1),
+	-19px 19px 0 rgba(64,64,64,1),
+	-20px 20px 0 rgba(64,64,64,1),
+	-21px 21px 0 rgba(64,64,64,1),
+	-22px 22px 0 rgba(64,64,64,1),
+	-23px 23px 0 rgba(64,64,64,1),
+	-24px 24px 0 rgba(64,64,64,1),
+	-25px 25px 0 rgba(64,64,64,1),
+	-26px 26px 0 rgba(64,64,64,1),
+	-27px 27px 0 rgba(64,64,64,1),
+	-28px 28px 0 rgba(64,64,64,1),
+	-29px 29px 0 rgba(64,64,64,1),
+	-30px 30px 0 rgba(64,64,64,1);
+	position: relative;
+}
